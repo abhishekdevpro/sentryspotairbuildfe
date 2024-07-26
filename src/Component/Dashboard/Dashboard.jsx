@@ -6,6 +6,8 @@ import SlidingText from './Slidingtext';
 import Home_Image from './Home_Image_dashboard';
 import video from './video.mp4';
 import image1 from './certificate.png'
+import image2 from './homeimage2.jpg'
+import image3 from './homeimage3.jpg'
 import Skills from './Skill Test/Skills';
 import axios from 'axios';
 import { useEffect,useState } from 'react';
@@ -68,13 +70,14 @@ const Dashboard = () => {
             </div>
             <div className=" p-5 rounded">
             <div className=' text-center text-xl font-semibold my-2'>Introduction</div>
-              <video src={video} alt="Resume 2" autoPlay loop 
+              {/* <video src={video} alt="Resume 2" autoPlay loop 
                 muted 
-                playsInline className=' h-[300px] ' />
+                playsInline className=' h-[300px] ' /> */}
+                <img src={image2} className='h-[300px]' alt="" />
             </div>
             <div className=" p-5 rounded">
             <div className=' text-center text-xl font-semibold mb-4 mt-2'>Certification</div>
-              <img src={image1} alt="Resume 3" className=' h-[282px]' />
+              <img src={image3} alt="Resume 3" className=' h-[282px]' />
             </div>
           </div>
         </section>
