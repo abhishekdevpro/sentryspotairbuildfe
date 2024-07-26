@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import logo from './logo.png';
+import logo from '../Navbar/Blue-Simple-Company-Logo.png';
 import './Home.css';
 import { Link } from 'react-router-dom';
 

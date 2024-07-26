@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from './images/logo3.png'
+import logo from '../Navbar/Blue-Simple-Company-Logo.png'
 import upload from './images/upload.png'
 import edit from './images/edit.png'
 import UploadScreen from "./loadingscreens/uploadscreen";
@@ -36,7 +36,7 @@ function Selectionresume() {
         <>
          <div className="flex  justify-between  p-2 h-14 " style={{backgroundColor: '#333456', color: '#F2931C'}}>
           
-          <img src={logo} alt=""  style={{width:'130px'}} />
+          <img src={logo} alt="" className="w-auto" />
             </div>
           <div className=" h-screen">
           <div className="text-center my-10">

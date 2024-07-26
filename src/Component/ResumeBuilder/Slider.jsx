@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/logo3.png';
+import logo from '../Navbar/Blue-Simple-Company-Logo.png';
 import { Link } from 'react-router-dom';
 
 const Slider = ({
@@ -42,9 +42,9 @@ const Slider = ({
   return (
     <div className=" w-[203vh] h-16 mx-auto px-4 " style={{ backgroundColor: '#333456', color: '#F2931C' }}>
       <div className=' flex justify-center items-center '>
-      <Link to='/dashboard'>
-      <div className="">
-        <img src={logo} className="w-32 " alt="Logo" />
+      <Link to='/resume'>
+      <div className=" h-14">
+        <img src={logo} className="w-auto h-full object-contain " alt="Logo" />
       </div>
       </Link>
       

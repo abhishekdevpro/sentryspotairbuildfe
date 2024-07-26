@@ -23,29 +23,10 @@ import UserDashboard from './Component/UserDashboard/UserDashboard.jsx'
 const route =createBrowserRouter([
   {
     path:"/",
-    element:<Layout/>,
-    children:[
-      {
-        path:"",
-        element:<App/>
-      },
-      {
-        path:"slide/:id",
-        element:<Slider_details/>
-      },
-      {
-        path:"login",
-        element:<Login/>
-      },
-      
-    ]
-  },
-
-  {
      element:<Layout2/>,
      children:[
       {
-        path:"dashboard",
+        path:" ",
         element:<Dashboard/>
       },
       {

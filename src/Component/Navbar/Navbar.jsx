@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
-import logo from './logo.png';
+// import logo from './logo.png';
+import logo from './Blue-Simple-Company-Logo.png'
 import './Navbar.css';
 import '../Home/Home.css'
 import { Link, useNavigate } from 'react-router-dom';
