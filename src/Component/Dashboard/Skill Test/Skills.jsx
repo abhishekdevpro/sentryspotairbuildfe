@@ -18,7 +18,7 @@
 //       return;
 //     }
 
-//     axios.get('https://api.abroadium.com/api/jobseeker/user-skills', {
+//     axios.get('https://api.sentryspot.co.uk/api/jobseeker/user-skills', {
 //       headers: {
 //         'Authorization': `${token}`
 //       }
@@ -111,7 +111,7 @@ const Skills = () => {
     }
 
     axios
-      .get('https://api.abroadium.com/api/jobseeker/user-skills', {
+      .get('https://api.sentryspot.co.uk/api/jobseeker/user-skills', {
         headers: {
           Authorization: `${token}`,
         },
@@ -163,6 +163,7 @@ const Skills = () => {
   }
 
   if (error) {
+    console.log(error)
     return <div className="py-16 px-5">Error loading skills data. Please try again later.</div>;
   }
 

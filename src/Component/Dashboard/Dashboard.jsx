@@ -28,7 +28,7 @@ const Dashboard = () => {
         }
     
         axios
-          .get('https://api.abroadium.com/api/jobseeker/user-skills', {
+          .get('https://api.sentryspot.co.uk/api/jobseeker/user-skills', {
             headers: {
               Authorization: `${token}`,
             },

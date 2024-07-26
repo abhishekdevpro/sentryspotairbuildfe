@@ -38,7 +38,7 @@ function AIResume() {
         };
 
         const response = await axios.post(
-          'https://api.abroadium.com/api/jobseeker/file-based-ai',
+          'https://api.sentryspot.co.uk/api/jobseeker/file-based-ai',
           requestBody,
           {
             headers: {
@@ -75,7 +75,7 @@ function AIResume() {
     if (!isOpen) {
       setLoading1(true);
       try {
-        const response = await axios.post('https://api.abroadium.com/api/jobseeker/resume-improved', {
+        const response = await axios.post('https://api.sentryspot.co.uk/api/jobseeker/resume-improved', {
           headers: {
             Authorization: `${token}`,
           },
@@ -100,7 +100,7 @@ function AIResume() {
       };
 
       const response = await axios.post(
-        'https://api.abroadium.com/api/jobseeker/file-based-ai',
+        'https://api.sentryspot.co.uk/api/jobseeker/file-based-ai',
         requestBody,
         {
           headers: {

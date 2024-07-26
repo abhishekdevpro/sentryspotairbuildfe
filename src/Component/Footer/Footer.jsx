@@ -8,8 +8,8 @@ const Footer = () => {
       <>
       <div className='  py-4 flex justify-center border-b-2' id='footerbg'>
         <div className=' flex flex-col md:w-[40%] justify-center  px-2 py-10 text-white gap-5 ' >
-          <div className=' text-center font-bold text-2xl'>Get Started with Abroadium.com</div>
-          <div className=' text-center text-lg'>Want to learn what Abroadium can do for you? See for yourself with a free premium content on Verified Overseas Opportunity</div>
+          <div className=' text-center font-bold text-2xl'>Get Started with SentrySpot.com</div>
+          <div className=' text-center text-lg'>Want to learn what SentrySpot can do for you? See for yourself with a free premium content on Verified Overseas Opportunity</div>
           <div className=' text-center'>
             <Link to='/'>
             <button className=' px-2 py-2 text-xl rounded-lg font-bold border-2 hover:shadow-xl hover:shadow-gray-800'id='footerbg' >Check it Out</button>
@@ -35,13 +35,13 @@ const Footer = () => {
                 <br/>
                 <div className=' flex flex-wrap justify-around'>
                 <div className="w-full md:w-auto mb-6 md:mb-0">
-                    <h2 className="text-lg font-bold text-white">Abroadium</h2>
+                    <h2 className="text-lg font-bold text-white">SentrySpot</h2>
                     <ul>
                         <li><a href="#" className="hover:text-orange-400">About Us</a></li>
                         <li><a href="#" className="hover:text-orange-400">Careers</a></li>
                         <li><a href="#" className="hover:text-orange-400">Placement Support</a></li>
-                        <li><a href="#" className="hover:text-orange-400">Abroadium Blog</a></li>
-                        <li><a href="#" className="hover:text-orange-400">Abroadium Tutorials</a></li>
+                        <li><a href="#" className="hover:text-orange-400">SentrySpot Blog</a></li>
+                        <li><a href="#" className="hover:text-orange-400">SentrySpot Tutorials</a></li>
                         <li><a href="#" className="hover:text-orange-400">Resources</a></li>
                     </ul>
                 </div>

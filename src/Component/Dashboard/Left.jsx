@@ -15,7 +15,7 @@ function Left() {
       <nav>
         <div className="flex flex-col">
         <Link 
-            to="/dashboard" 
+            to="/" 
             className={`mb-2 px-2 py-2 rounded-md ${activeTab === '/dashboard' ? 'bg-slate-900 text-white' : 'bg-slate-700 text-white'}`}
             onClick={() => handleTabClick('/dashboard')}
           >
@@ -35,13 +35,13 @@ function Left() {
           >
             <i className="fa-solid fa-file p-3 text-purple-500"></i>AI Resume Builder
           </Link>
-          <Link 
+          {/* <Link 
             to="https://blog.abroadium.com/category/candidate-resources/" 
             className={`mb-2 px-2 py-2 rounded-md ${activeTab === 'https://blog.abroadium.com/category/candidate-resources/' ? 'bg-slate-900 text-white' : 'bg-slate-700 text-white'}`}
             onClick={() => handleTabClick('https://blog.abroadium.com/category/candidate-resources/')}
           >
             <i className="fa-solid fa-paper-plane p-3 text-purple-500"></i>Resources
-          </Link>
+          </Link> */}
           <Link 
             to="/skilltest" 
             className={`mb-2 px-2 py-2 rounded-md ${activeTab === '/skilltest' ? 'bg-slate-900 text-white' : 'bg-slate-700 text-white'}`}

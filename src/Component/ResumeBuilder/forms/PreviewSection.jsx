@@ -46,7 +46,7 @@
 //       };
 
 //       const response = await axios.post(
-//         'https://api.abroadium.com/api/jobseeker/file-based-ai',
+//         'https://api.sentryspot.co.uk/api/jobseeker/file-based-ai',
 //         requestBody,
 //         {
 //           headers: {
@@ -65,7 +65,7 @@
 
 //   const updateResume = async () => {
 //     const token = localStorage.getItem('token');
-//     const url = `https://api.abroadium.com/api/jobseeker/resume-update/${id}`;
+//     const url = `https://api.sentryspot.co.uk/api/jobseeker/resume-update/${id}`;
   
 //     const skillsFromApiArray = Array.isArray(skillsfromapi) ? skillsfromapi : [];
   
@@ -289,7 +289,7 @@
 //       };
 
 //       const response = await axios.post(
-//         'https://api.abroadium.com/api/jobseeker/file-based-ai',
+//         'https://api.sentryspot.co.uk/api/jobseeker/file-based-ai',
 //         requestBody,
 //         {
 //           headers: {
@@ -308,7 +308,7 @@
 
 //   const updateResume = async () => {
 //     const token = localStorage.getItem('token');
-//     const url = `https://api.abroadium.com/api/jobseeker/resume-update/${id}`;
+//     const url = `https://api.sentryspot.co.uk/api/jobseeker/resume-update/${id}`;
   
 //     const skillsFromApiArray = Array.isArray(skillsfromapi) ? skillsfromapi : [];
   
@@ -523,7 +523,7 @@
 //       };
 
 //       const response = await axios.post(
-//         'https://api.abroadium.com/api/jobseeker/file-based-ai',
+//         'https://api.sentryspot.co.uk/api/jobseeker/file-based-ai',
 //         requestBody,
 //         {
 //           headers: {
@@ -542,7 +542,7 @@
 
 //   const updateResume = async () => {
 //     const token = localStorage.getItem('token');
-//     const url = `https://api.abroadium.com/api/jobseeker/resume-update/${id}`;
+//     const url = `https://api.sentryspot.co.uk/api/jobseeker/resume-update/${id}`;
   
 //     const skillsFromApiArray = Array.isArray(skillsfromapi) ? skillsfromapi : [];
   
@@ -764,7 +764,7 @@ const PreviewSection = ({
       };
 
       const response = await axios.post(
-        'https://api.abroadium.com/api/jobseeker/file-based-ai',
+        'https://api.sentryspot.co.uk/api/jobseeker/file-based-ai',
         requestBody,
         {
           headers: {
@@ -783,7 +783,7 @@ const PreviewSection = ({
 
   const updateResume = async () => {
     const token = localStorage.getItem('token');
-    const url = `https://api.abroadium.com/api/jobseeker/resume-update/${id}`;
+    const url = `https://api.sentryspot.co.uk/api/jobseeker/resume-update/${id}`;
   
     const skillsFromApiArray = Array.isArray(skillsfromapi) ? skillsfromapi : [];
   

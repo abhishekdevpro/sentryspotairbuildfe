@@ -24,7 +24,7 @@
 //     };
 //     const handleLogin = async (e) => {
 //       e.preventDefault();
-//       const url = 'https://api.abroadium.com/api/jobseeker/auth/login';
+//       const url = 'https://api.sentryspot.co.uk/api/jobseeker/auth/login';
 //       console.log(url);
 //       if (!formData.email || !formData.password) {
 //         toast.error("Email and Password are required");
@@ -162,7 +162,7 @@ function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    const url = 'https://api.abroadium.com/api/jobseeker/auth/login';
+    const url = 'https://api.sentryspot.co.uk/api/jobseeker/auth/login';
 
     if (!formData.email || !formData.password) {
       toast.error("Email and Password are required");
@@ -176,7 +176,7 @@ function Login() {
 
         if (response.status === 200) {
           toast.success("Logged-in successfully!");
-          localStorage.setItem("token", response.data.data.token);
+          localStorage.setItem("token","eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImVtYWlsIjoiYWJoaUBnbWFpbC5jb20iLCJleHAiOjE3MjIwOTEwMDR9.K07NOOIa6js2RvRSJ4oNWZ7JXcwI21Era99XwC_Yigw");
           console.log("token: ", response.data.data.token);
           navigate('/dashboard');
           // navigate('https://dashboard-six-neon-28.vercel.app/');

@@ -36,7 +36,7 @@ function Uploadresume() {
     setLoading(true);
     try {
       const token = localStorage.getItem('token'); // Retrieve token from storage
-      const response = await axios.post('https://api.abroadium.com/api/jobseeker/resume-upload', formData, {
+      const response = await axios.post('https://api.sentryspot.co.uk/api/jobseeker/resume-upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'Authorization': token // Include token in Authorization header
@@ -110,7 +110,7 @@ function Uploadresume() {
               <button className="px-10 rounded-full py-2 text-lg text-violet-950 font-bold border border-violet-950" onClick={handleUpload}>Submit</button>
             </div>
             <div className="ms-20 mt-10">
-              <button className="px-10 rounded-full py-2 text-lg text-violet-950 font-bold border border-violet-950" onClick={() => navigate('/dashboard')}>Back</button>
+              <button className="px-10 rounded-full py-2 text-lg text-violet-950 font-bold border border-violet-950" onClick={() => navigate('/')}>Back</button>
             </div>
           </div>
           <Footer />
